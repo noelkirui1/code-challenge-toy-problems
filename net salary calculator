@@ -1,0 +1,12 @@
+function calculatePayee() {
+    const basicSalary = parseFloat(prompt("Enter your basic salary:"));
+    const benefits = parseFloat(prompt("Enter the value of benefits:"));
+
+    const grossSalary = basicSalary + benefits;
+    const payee = calculatePayee(grossSalary);
+
+    console.log(`Gross Salary: ${grossSalary}`);
+    console.log(`Payee (Tax): ${payee}`);
+}
+
+calculatePayee();
