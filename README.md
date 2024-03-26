@@ -1,4 +1,3 @@
 Code challenge:Toy Problems
 
-
-fork and clone the repository
+This is code challenge wk 1 inclusive of 3 code challenges writen in javascript
